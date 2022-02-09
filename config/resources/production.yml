@@ -1,0 +1,11 @@
+server:
+  address: ":8080"
+  timeout: 10
+database:
+  url: root:@tcp(localhost:3308)/movies?parseTime=true
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: 60
+  autoMigrate: false
+logger:
+  level: "info"

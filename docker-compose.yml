@@ -1,0 +1,11 @@
+services:
+  mysql :
+    image: mysql
+    command: --init-file /data/application/init.sql
+    volumes:
+      - ./init.sql:/data/application/init.sql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: y
+      MYSQL_DATABASE: movies
+    ports:
+      - "3308:3306"
