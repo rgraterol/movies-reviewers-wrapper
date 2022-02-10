@@ -1,4 +1,4 @@
-module github.com/rgraterol/where-is-my-movie
+module github.com/rgraterol/movies-reviewers-wrapper
 
 go 1.17
 

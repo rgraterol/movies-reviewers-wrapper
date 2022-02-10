@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/rgraterol/where-is-my-movie/config"
+	"github.com/rgraterol/movies-reviewers-wrapper/config"
 )
 
 var DatabaseConfig DatabaseConfiguration

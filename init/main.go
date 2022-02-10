@@ -1,7 +1,7 @@
 package main
 
 import (
-	i "github.com/rgraterol/where-is-my-movie/init/initializers"
+	i "github.com/rgraterol/movies-reviewers-wrapper/init/initializers"
 )
 
 func main() {
